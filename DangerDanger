@@ -1,0 +1,8 @@
+# bash/bin
+
+cd $1
+
+alldir=(`ls`)
+
+for i in {alldir[*]}:
+  rm i
